@@ -42,8 +42,7 @@ Chatso is an advanced chat application developed for the Kick.com platform. With
 ## 🤝 Support
 - **Email**: clip.chatso@gmail.com
 
-### v1.0.0
-- Initial beta release  
+### v1.1.0
 - Core chat features  
 - Moderation tools  
 - Notification system  
@@ -99,8 +98,7 @@ Chatso, Kick.com platformu için geliştirilmiş gelişmiş bir chat uygulaması
 ## 🤝 Destek
 - **Email**: clip.chatso@gmail.com
 
-### v1.0.0
-- İlk beta sürüm  
+### v1.1.0
 - Temel chat özellikleri  
 - Moderasyon araçları  
 - Bildirim sistemi  
