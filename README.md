@@ -49,7 +49,7 @@ Chatso is an advanced chat application developed for the Kick.com platform. With
 - Theme support
 
 ### Install: 
-Portable: https://github.com/Clipso9/Chatso-Beta/releases/download/v1.1/Chatso_v1.1.zip
+Portable: https://github.com/Clipso9/Chatso-Beta/releases/download/v1.2/Chatso_v1.2.zip
 
 **Chatso** – An advanced chat experience for Kick.com 🚀
 
@@ -106,6 +106,6 @@ Chatso, Kick.com platformu için geliştirilmiş gelişmiş bir chat uygulaması
 - Tema sistemi  
 
 ### İndirmek için: 
-Portable: https://github.com/Clipso9/Chatso-Beta/releases/download/v1.1/Chatso-v1.1.zip
+Portable: https://github.com/Clipso9/Chatso-Beta/releases/download/v1.2/Chatso_v1.2.zip
 
 **Chatso** - Kick.com için gelişmiş chat deneyimi 🚀
