@@ -14,7 +14,7 @@ Whether you are managing a fast-paced chat or monitoring multiple streams at onc
 👤 User Profiles: Quickly view user details and moderation stats.
 
 ### Install: 
-Portable: https://github.com/Clipso9/Chatso-Beta/releases/download/v1.2/Chatso-v1.2.zip
+https://github.com/Clipso9/Chatso-Beta/releases/download/v1.2/Chatso.Setup.exe
 
 **Chatso** – An advanced chat experience for Kick.com 🚀
 
@@ -36,6 +36,6 @@ Chatso, Kick.com platformu için geliştirilmiş gelişmiş bir chat uygulaması
 👤 Kullanıcı Profilleri: Kullanıcı detaylarını ve moderasyon istatistiklerini hızlıca görüntüleyin.
 
 ### İndirmek için: 
-Portable: https://github.com/Clipso9/Chatso-Beta/releases/download/v1.2/Chatso-v1.2.zip
+https://github.com/Clipso9/Chatso-Beta/releases/download/v1.2/Chatso.Setup.exe
 
 **Chatso** - Kick.com için gelişmiş chat deneyimi 🚀
