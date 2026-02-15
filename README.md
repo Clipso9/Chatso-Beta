@@ -1,6 +1,4 @@
 <h1 align="center">
-  <img src="public/icon.png" alt="Chatso" width="80" />
-  <br/>
   Chatso
 </h1>
 
