@@ -1,173 +1,109 @@
-<h1 align="center">
-  Chatso
-</h1>
+# Chatso
 
-<p align="center">
-  <strong>Kick.com için gelişmiş sohbet moderasyon aracı</strong><br/>
-  <em>Advanced Chat Moderator Tool for Kick.com</em>
-</p>
+**A desktop chat and moderation app for Kick.com.**
 
-<p align="center">
-  <a href="#-özellikler">Türkçe</a> · <a href="#-features">English</a>
-</p>
+🇹🇷 [Türkçe README](README.tr.md)
+
+![Chatso main window](docs/screenshots/01-main-chat.png)
+
 
 ---
 
-## 🇹🇷 Türkçe
+## Highlights
 
-### 📖 Hakkında
-
-Chatso, Kick.com yayıncıları ve moderatörleri için tasarlanmış bir masaüstü uygulamasıdır. Birden fazla kanalı aynı anda izlemenizi, sohbeti yönetmenizi ve moderasyon işlemlerini tek bir arayüzden gerçekleştirmenizi sağlar.
-
-### ⚡ Özellikler
-
-#### 💬 Çoklu Kanal Yönetimi
-- Birden fazla Kick.com kanalını aynı anda dinleme
-- Kanal bazlı sekme yapısı ile kolay gezinme
-
-#### 🛡️ Moderasyon Araçları
-- **Ban / Timeout / Unban** — Kullanıcılara profilleri üzerinden hızlı moderasyon işlemleri
-- **Ban Everywhere** — Bir kullanıcıyı Kick'te moderatör olduğunuz tüm kanallarda tek tıkla yasaklama/kaldırma
-- **Toplu Moderasyon** — Birden fazla kullanıcıya aynı anda ban/timeout/unban işlemi uygulama
-- **Moderasyon Geçmişi** — Uygulamadaki moderasyon işlemlerinin kaydını görüntüleme (işlem, kullanıcı, moderatör, sebep, süre, zaman)
-
-#### 🤖 Otomatik Moderasyon
-- **Yasaklı Kelimeler** — Belirli kelimeleri içeren mesajları otomatik olarak banlama
-- **Timeout Kelimeleri** — Belirli kelimeleri içeren mesajları otomatik olarak susturma
-- **Kanal Bazlı Ayarlar** — Her kanal için ayrı otomatik moderasyon kuralları
-
-#### 🚫 Spam Koruması
-- **Mesaj Hız Limiti** — Belirli sürede çok fazla mesaj atanları otomatik susturma
-- **Tekrarlayan Mesaj Algılama** — Aynı mesajı tekrar tekrar gönderenleri tespit etme
-- **Büyük Harf Limiti** — Aşırı büyük harf kullanımını engelleme
-- **Emote Limiti** — Mesaj başına aşırı emote kullanımını engelleme
-- Her kural için ayrı timeout süresi ayarlayabilme
-
-#### 👤 Kullanıcı Profili
-- Kullanıcının mesaj geçmişini kanal bazlı filtreleme
-- Tam ekran profil fotoğrafı görüntüleme
-
-#### 🔔 Bildirim Sistemi
-- **Masaüstü Bildirimleri** — Özelleştirilebilir bildirim sesleri
-- **Bildirim Kelimeleri** — Belirli kelimeler geçtiğinde otomatik bildirim
-- **Bildirim Geçmişi** — Tüm bildirimlerin kaydı
-- **Ses Seviyesi Kontrolü** — Bildirim ses seviyesini ayarlama
-
-#### ⌨️ Klavye Kısayolları
-- Timeout işlemleri için özelleştirilebilir tuş atamaları
-- Hızlı moderasyon için kısayol tuşları
-
-#### 🎨 Vurgulamalar (Highlights)
-- Belirli kelimeleri içeren mesajları renkli olarak vurgulama
-- Tam kelime eşleşme seçeneği
-- Vurgulanan mesajları ayrı bir pencerede görüntüleme
-
-#### 📝 Sohbet Kaydı
-- Sohbet mesajlarını dosyaya kaydetme
-- Kanal bazlı kayıt seçimi
-- Özelleştirilebilir kayıt klasörü
-
-#### 🎨 Tema ve Görünüm
-- **4 Tema:** Koyu Mod, Açık Mod, Sakura (pembe), Okyanus (mavi)
-- Arayüz ölçeği ayarlama
-- Sohbet yazı boyutu ayarlama
-- Sende gönderirken emote boyutu ayarlama
-
-#### 🌍 Çok Dilli Destek
-- Türkçe ve İngilizce tam dil desteği
-
-#### 🔄 Otomatik Güncelleme
-- Uygulama açılışında otomatik güncelleme kontrolü
-- Ayarlar üzerinden manuel güncelleme denetleme
-
-#### 🖥️ Masaüstü Özellikleri
-- **Her Zaman Üstte** — Pencereyi diğer pencerelerin üzerinde tutma
-- **Sistem Tepsisi** — Kapatınca tepsi simgesine küçültme
-- **Otomatik Duraklama** — Mouse sohbet üzerindeyken akışı duraklama
+- **Multi-channel tabs** — every channel you moderate in one window, with live status, viewer count and stream title.
+- **Fast moderation** — timeouts and bans on keyboard shortcuts, ban with your own reason, message deletion, bulk moderation and word-based auto moderation.
+- **Subscriptions and KICKS** — subs, gifted subs, KICKS gifts and channel-point redemptions, both inline in chat and in a separate filterable window.
+- **Streamer panel** — stream title and category, subscriber counts, KICKS leaderboard, channel point rewards and ad breaks.
+- **Giveaways** — keyword entry, subscriber luck multiplier, participant search, and one click from a winner to their chat history.
+- **Smooth chat** — no message cap; a virtualised list keeps the flow smooth even on modest hardware.
 
 ---
 
-## 🇬🇧 English
+## A closer look
 
-### 📖 About
+### Subscriptions and KICKS
 
-Chatso is a desktop application designed for Kick.com streamers and moderators. It allows you to monitor multiple channels simultaneously, manage chat, and perform moderation actions from a single interface.
+Every subscription, gifted sub, KICKS gift and reward redemption in one list. Filter by type, channel, user or message text, and by a minimum KICKS amount. The window can stay on top while you work.
 
-### ⚡ Features
+![Subscriptions and KICKS window](docs/screenshots/02-events-window.png)
 
-#### 💬 Multi-Channel Management
-- Listen to multiple Kick.com channels simultaneously
-- Easy navigation with channel-based tab structure
-- Add/remove channels
-- Real-time message streaming (Pusher WebSocket)
+### Moderation history
 
-#### 🛡️ Moderation Tools
-- **Ban / Timeout / Unban** — Quick moderation via right-click context menu
-- **Ban Everywhere** — Ban a user across all channels you moderate with one click
-- **Bulk Moderation** — Apply ban/timeout/unban to multiple users at once
-- **Moderation History** — View log of all moderation actions (action, user, moderator, reason, duration, time)
+Every action taken through the app, searchable and filterable by action type, channel, moderator and time range. You choose which channels get recorded in the first place.
 
-#### 🤖 Auto-Moderation
-- **Banned Words** — Automatically ban messages containing specific words
-- **Timeout Words** — Automatically timeout messages containing specific words
-- **Per-Channel Settings** — Separate auto-moderation rules for each channel
+![Moderation history](docs/screenshots/08-moderation-history.png)
 
-#### 🚫 Spam Protection
-- **Message Rate Limit** — Auto-timeout users who send too many messages in a given timeframe
-- **Repeated Message Detection** — Detect users sending the same message repeatedly
-- **Caps Lock Limit** — Prevent excessive use of capital letters
-- **Emote Limit** — Prevent excessive emote usage per message
-- Configurable timeout duration for each rule
+### Giveaways
 
-#### 😀 Emote Support
-- **Kick Global Emotes** — All Kick emotes
-- **7TV Emotes** — 7TV global and channel emotes
-- **Emote Picker** — Emote selector for adding emotes to chat
-- Visual emote rendering in messages
+Collects viewers who type your keyword, gives subscribers a luck multiplier and blocks duplicate entries. Participants are searchable, and clicking a winner opens their profile and chat history.
 
+![Giveaway window](docs/screenshots/03-giveaway-window.png)
 
-#### 🔔 Notification System
-- **Desktop Notifications** — Customizable notification sounds
-- **Notification Keywords** — Automatic notification when specific words are mentioned
-- **Notification History** — Log of all notifications
-- **Volume Control** — Adjust notification sound volume
+### Notifications
 
-#### ⌨️ Keyboard Shortcuts
-- Customizable key bindings for timeout actions
-- Shortcut keys for quick moderation
+Get notified when you are mentioned, when your keywords appear, or when a channel goes live — including channels you do not have open as a tab. Three notification designs, screen position, duration and a custom sound.
 
-#### 🎨 Highlights
-- Highlight messages containing specific words with colors
-- Exact word match option
-- View highlighted messages in a separate window
+![Notification settings](docs/screenshots/06-settings.png)
 
-#### 📝 Chat Logging
-- Save chat messages to file
-- Per-channel logging selection
-- Customizable log directory
+### Bot messages
 
-#### 🎨 Themes & Appearance
-- **4 Themes:** Dark Mode, Light Mode, Sakura (pink), Ocean (blue)
-- UI scale adjustment
-- Chat font size adjustment
-- Send emote size adjustment
+Timed messages and warning messages per channel. A "minimum new messages" condition keeps the bot from talking to an empty room, and messages can be sent from your own account.
 
-#### 🌍 Multilingual Support
-- Full Turkish and English language support
+![Bot messages](docs/screenshots/07-bot.png)
 
-#### 🔄 Auto-Update
-- Automatic update check on app launch
-- Manual update check from Settings
-- Download progress bar
-- One-click update and restart
+### Vertical chat window
 
-#### 🖥️ Desktop Features
-- **Always on Top** — Keep the window above all others
-- **System Tray** — Minimize to tray on close
-- **Auto Pause** — Pause stream when mouse hovers over chat
+A narrow chat window made for a second screen while you stream: send messages, change font size, toggle timestamps and keep it always on top.
+
+![Vertical chat window](docs/screenshots/05-vertical-chat.png)
+
+### Highlighted messages
+
+Messages matching your highlight keywords are collected in their own window so you can come back to them after the stream.
+
+![Highlights window](docs/screenshots/04-highlights-window.png)
 
 ---
 
-### 📄 License
+## Full feature list
 
-© 2025-2026 Clipso. All rights reserved.
+**Chat**
+- Kick global and channel emotes, plus 7TV emotes
+- Emote autocomplete with `:`, replies, message deletion
+- The channel's pinned message shown above the chat
+- Role colours (broadcaster / moderator / VIP-OG / viewer) and per-badge visibility
+- Searchable viewer list grouped by role
+- No message cap; scrolling up pauses the flow and one click returns to live
+
+**Moderation**
+- Timeout and ban on keyboard shortcuts
+- Plain ban sends no reason; "Ban with reason" lets you write your own
+- Message deletion and per-user chat history from the profile view
+- Bulk moderation (ban/unban from a list)
+- Auto moderation: ban and timeout words, spam and emote-spam protection
+- See which moderator took which action, inline in chat
+- Moderation history with filters, and per-channel recording control
+
+**Streamer panel**
+- Stream title, category and tags — also from a shortcut in the chat window
+- Subscriber counts, KICKS leaderboard, channel point rewards and redemptions
+- Ad breaks
+
+**Notifications**
+- Mentions, your own keywords, and channels going live
+- Separate tabs for stream alerts and other notifications
+- Test previews are shown but never recorded in the list
+
+**Other**
+- Chat logging to a file, for the channels you pick
+- Turkish and English interface
+- Automatic updates
+
+---
+
+## Install
+
+1. Download `Chatso Setup.exe` from the [latest release](../../releases/latest).
+2. Run it. If Windows SmartScreen appears, choose **More info → Run anyway**.
+3. Open the app and use **Account → Login** to sign in with Kick. The browser tab closes itself once you approve.
